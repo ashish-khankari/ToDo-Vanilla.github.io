@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-do-List</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>To do List using Vanilla JS</h1>
+    <form>
+      <input type="text" class="input" placeholder="e.g Learn Java" />
+      <button type="submit" class="addtask">
+        <i class="fa-solid fa-plus"></i>
+            </button>
+      <div class="select">
+        <select name="todos" class="filter-todo">
+  
+          <option value="all">All</option>
+          <option value="completed">Completed</option>
+          <option value="pending">pending</option>
+  
+        </select>
+       </div>
+     
+    </form>
+    <div class="todo-container">
+      <ul class="todo-list">
+
+      </ul>
+    </div>
+  </div>
+  <script src="main.js"></script>
+  <script src="https://kit.fontawesome.com/3bb78fc623.js" crossorigin="anonymous"></script>
+
+</body>
+</html>
